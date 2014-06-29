@@ -3,5 +3,5 @@ var getHello = function () {
 };
 
 var printHelloWorldToConsole = function() {
-    print(this.getHello());
+    printToConsole(this.getHello());
 };
